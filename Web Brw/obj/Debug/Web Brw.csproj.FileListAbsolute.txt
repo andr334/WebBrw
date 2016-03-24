@@ -1,0 +1,10 @@
+c:\users\andreeatu\documents\visual studio 2013\Projects\Web Brw\Web Brw\bin\Debug\Web Brw.exe.config
+c:\users\andreeatu\documents\visual studio 2013\Projects\Web Brw\Web Brw\bin\Debug\Web Brw.exe
+c:\users\andreeatu\documents\visual studio 2013\Projects\Web Brw\Web Brw\bin\Debug\Web Brw.pdb
+c:\users\andreeatu\documents\visual studio 2013\Projects\Web Brw\Web Brw\obj\Debug\Web_Brw.Form1.resources
+c:\users\andreeatu\documents\visual studio 2013\Projects\Web Brw\Web Brw\obj\Debug\Web_Brw.Properties.Resources.resources
+c:\users\andreeatu\documents\visual studio 2013\Projects\Web Brw\Web Brw\obj\Debug\Web Brw.csproj.GenerateResource.Cache
+c:\users\andreeatu\documents\visual studio 2013\Projects\Web Brw\Web Brw\obj\Debug\Web Brw.exe
+c:\users\andreeatu\documents\visual studio 2013\Projects\Web Brw\Web Brw\obj\Debug\Web Brw.pdb
+c:\users\andreeatu\documents\visual studio 2013\Projects\Web Brw\Web Brw\obj\Debug\Web_Brw.WebBrowser.resources
+c:\users\andreeatu\documents\visual studio 2013\Projects\Web Brw\Web Brw\obj\Debug\Web Brw.csprojResolveAssemblyReference.cache
