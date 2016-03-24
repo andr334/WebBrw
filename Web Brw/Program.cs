@@ -19,7 +19,7 @@ namespace Web_Brw
             Application.Run(new Form1());
 
             Person person = new Person();
-            //person.personEvent += button1_Click(this, Person person);
+            //person.PersonEvent += button1_Click(this, Person person);
 
 
         }

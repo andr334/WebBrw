@@ -15,34 +15,29 @@ namespace Web_Brw
 
         public delegate void MyEventHandler(object sender, PersonEventArgs e);
 
-        public event MyEventHandler personEvent;
+        public event MyEventHandler PersonEvent;
+
+        public EventHandler<PersonEventArgs> PersonEvent2;
+
+        public event Action<object, PersonEventArgs> PersonEvent3;
+
+        public Action<object, PersonEventArgs> PersonAction { get; set; }
 
         public WebBrowser()
         {
             InitializeComponent();
         }
 
-
-        private void WebBrowser_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            if (personEvent != null)
+            if (PersonEvent != null)
             {
                 PersonEventArgs pea = new PersonEventArgs();
                 Person p = new Person();
                 pea.Person = p;
                 p.FirstName = textBox1.Text;
                 p.LastName = textBox2.Text;
-                personEvent(this, pea);
+                PersonEvent(this, pea);
 
             } 
         }
@@ -52,5 +47,20 @@ namespace Web_Brw
             textBox1.Text = person.FirstName;
             textBox2.Text = person.LastName;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (PersonEvent2 != null)
+            {
+                PersonEventArgs pea = new PersonEventArgs();
+                Person p = new Person();
+                pea.Person = p;
+                p.FirstName = textBox1.Text;
+                p.LastName = textBox2.Text;
+                PersonEvent2(this, pea);
+
+            } 
+        }
+
     }
 }

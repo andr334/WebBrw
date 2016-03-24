@@ -18,8 +18,13 @@ namespace Web_Brw
         public Form1()
         {
             InitializeComponent();
-            webBrowser1.personEvent += webBrowser1_personEvent;
-            webBrowser2.personEvent += webBrowser2_personEvent;
+            webBrowser1.PersonEvent += webBrowser1_personEvent;
+            webBrowser1.PersonEvent += webBrowser1_personEvent;
+            webBrowser2.PersonEvent += webBrowser2_personEvent;
+
+            webBrowser1.PersonEvent2 += webBrowser1_personEvent;
+            webBrowser1.PersonEvent2 += webBrowser1_personEvent;
+            webBrowser2.PersonEvent2 = webBrowser2_personEvent;
         }
 
         void webBrowser1_personEvent(object sender, PersonEventArgs e)
